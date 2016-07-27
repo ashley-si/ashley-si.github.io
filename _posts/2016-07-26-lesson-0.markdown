@@ -1,7 +1,9 @@
 ---
 layout: post
 comments: true
+disqus_identifier: /lesson0
 title: "Lesson 0 : Expectations"
+permalink: "/lesson0"
 ---
 
 A new start
