@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Lesson 0 : Expectations"
+permalink: /lesson0.html
+comments: true
+---
+
+A new start
+-----------
+
+Time flies! <br><br>
+The summer break is coming to an end, and so is my first techinical internship. I have learned a bit more about software engineering, especially in mobile app development, and I think I might actually enjoy being a software engineer ;) <br><br>
+My experience also brought me to think about what kind of applications I would like to build. Wouldn't it be so exciting to watch your very own ideas materialise? <br><br>
+Luckily (or is it?) I got into CS3216, which is going to make the coming semester exciting.<br><br>
+
+
+My wishlist
+-----------
+
+**1. Learn to work in a team** <br>
+My internship experience has taught me how important teamwork is. I hope we can deliver a great product together as a team. Hopefully we can enjoy the process :)
+
+**2. Try new things** <br>
+I *love* to try new things. I chose to write my blog using Jekyll because I think it is cool to try out, though I definitely spend more time on it. CS3216 is a great opportunity for me to try out web technologies. I will focus on delivering rather than trying out in the second half of the course for the group project.
+
+**2. Designer or Coder?** <br>
+Hopefully after trying out more and knowing more about myself, I would be able to decide which role should I take on in order to maximise my output in a team. Right now I prefer the front end. I prize myself for having an eye for beauty (cheeky grin hahaha).
+
+<br>
+*More to come...*
