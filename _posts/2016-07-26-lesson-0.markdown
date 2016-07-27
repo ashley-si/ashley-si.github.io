@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "Lesson 0 : Expectations"
-permalink: /lesson0.html
 comments: true
+title: "Lesson 0 : Expectations"
 ---
 
 A new start
