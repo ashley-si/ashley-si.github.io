@@ -1,0 +1,19 @@
+---
+layout: post
+comments: true
+disqus_identifier: /lesson1
+title: "Lesson 1 : THE idea"
+permalink: "/lesson1"
+---
+
+The first class was fun. We played an ice-breaking game and got to know each other's name, 'speciality', etc.. Prof shared with us his exciting expriences that put him into danger several times. And we watched a mini-drone in action. At the end of the class, Van, Kent, Liang and I decided to form a group for assignment 1.
+
+We spent a long time on what app we are going to build and we have not confirmed our idea as I'm writing this post. We thought about our 'pain points' long and hard, and dismissed several of our own ideas. Nevertheless, in the process, I picked up a few pointers from my group mates.
+
+* Be observant. Zhu Liang has a good habit of keeping his ideas in his notes. Whenever idea stries you, you should just note it down even if it is not needed right now.
+
+* Don't dismiss an idea so fast. Zhu Liang shared an interesting article with us. It is so easy to just dismiss ideas, but we should find ways to make our ideas defendable.
+
+* Try out new applications and stay engaged. We don't want to build a copy of what other people have already built, so it is necessary to know what have already been built, and their strength and weaknesses. When we discussed our idea, Kent and Van were able to tell us some similar application have already been built.
+
+I volunteered myself for the design job. Time to learn more things ><
