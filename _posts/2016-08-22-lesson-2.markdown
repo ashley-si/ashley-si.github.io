@@ -1,0 +1,13 @@
+---
+layout: post
+comments: true
+disqus_identifier: /lesson2
+title: "Lesson 2 : Getting started"
+permalink: "/lesson2"
+---
+
+We finally decided to make a website that compiles a list of NUS's CCAs, and also the details about the CCA such as training schedule, Facebook page, contact details etc., and the Facebook profiles of the CCA members if the user has logged in with Facebook account. After the mid-assignment submission, we found out that there is another group that is doing similar theme. 
+
+When I designed the index page, I wanted to make a full page landing screen. But my team mates suggested a valid point that the landing screen takes too much space and doesn't add much value. UI design is not only about aesthetics, but more importantly the clarity of content and the ease to use. I will take note of this for the CCA profile page UI design. Last lesson's speaker Jonathon recommended [patterntap](http://zurb.com/patterntap) for examples of good UI design, and I find the collection quite inspiring.For the frontend framework, I find Bootstrap is easier to customise with Less. 
+
+There's so much to learn and I'm starting to feel the pressure :(
