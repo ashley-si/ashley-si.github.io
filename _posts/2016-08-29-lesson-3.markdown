@@ -1,0 +1,24 @@
+---
+layout: post
+comments: true
+disqus_identifier: /lesson3
+title: "Lesson 3 : Getting used to Angular"
+permalink: "/lesson3"
+---
+
+UI Design
+=========
+After viewing the UI design video Prof Ben posted on Facebook, I decided to try using whitespace to separate the UI components in our CCA profile page. But I didn't foresee that there are cases where some UI components could be empty due to lack of data, in which cases the layout becomes a bit awkward. 
+
+Also the content itself is so crucial to how the UI will look. I think the UI should look nicer once we get serious with our data. Since right now we are populating the database ourselves, I will carefully pick the pictures and edit them to make their dimensions right.
+
+By popular choice, Material Design seems the way to go.
+
+
+Angular
+=======
+Second week into implementation and I am more comfortable with Angular. I started to work on the controllers and services, and the UI parts that need to deal with dynamic data. I started to appreciate how convenient it is to use ng-if, ng-hide, ng-repeat,ng-show and ng-class for dynamic UI and also animation.
+
+The data binding between the controller and html is 2-way, so I can refer to the html variable in controller by using `$scope.`, and refer to the controller variable in html by using the controller's name.
+
+For ng-repeat, `$index` will return the index of the ng-repeat item in the array. I used it for the CCA events navigation.
