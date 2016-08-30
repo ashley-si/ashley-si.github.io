@@ -1,0 +1,44 @@
+---
+layout: post
+comments: true
+disqus_identifier: /lesson4
+title: "Lesson 4 : App Critique"
+permalink: "/lesson4"
+---
+
+(Welcome to an unstyled post! I will add in the css as soon as I'm done with Assignment 1, 2, 3...final assignment...end of this module)
+
+Yu Chuan, Louie, Hanming and Zhu Liang gave us a very engaging and entertaining talk on Grab. Grab is one of the few Apps presented that everyone is quite familiar with, but they still managed to bring new things to people's attention.
+
+3 Important Points
+-------------------
+
+Fun facts
+===========
+When Yu Chuan showed that in Grab you can actually set the pick-up and drop-off locations to the middle of nowhere, the seminar roared with laughter.
+
+![a screenshot of the middle of nowhere](/images/grab_location.jpg)
+
+
+I tried it out and indeed by dragging Google Map's marker, user can set the location to anywhere. Interestingly, after I dragged the marker to the sea, the App still managed to give me a name of the 'road' that I'm on. I thought that Grab wouldn't allow booking with locations set as such, but I tapped on the 'Book' button and the request went through! I quickly cancelled it, afraid that someone would actually take it haha.
+
+Other details that I didn't notice before they pointed put including the limited payment choices (no PayPal) and having GrabHeli in certain regions.
+
+
+Future development
+===================
+The group suggested that expanding Grab's service to courier services and helping people to find deals. I'm not sure how feasible they are in the local context. I feel it might not be a good idea to enter the local delivery service sector, given exisitng solutions like [Ninja Van](https://www.ninjavan.co/en-sg/) (although their UI doesn't seem as nice) and [Deliveroo](https://deliveroo.com.sg). It may not be worthwhile for Grab to incur the overhead costs. But hey I have seen Uber China delivering Häagen-Dazs with discounted price. How's that for publicity stunt :D
+
+Comparison with Uber
+=====================
+I'm really happy that they pointed out the live update issue. I swear the live update of car location on Uber makes someone who is impatient and insecure like me feel much better waiting for the car to arrive. I totally agree Grab should have this function too.
+
+
+
+Original Thoughts
+-------------------
+The presentation humorously suggested that Grab grabbed the idea from Uber. Personally I feel it doesn't matter. It doesn't matter who does it first, but who does it best. Of course timing is also a crucial factor in the who-does-it-best competition, but the originality of idea is not so important. Uber is the first App of its kind, but there's Grab in SEA and [Didi Chuxing (滴滴出行)](http://www.xiaojukeji.com/) in China. Didi Chuxing has just bought Uber's China business. I assume Uber has more capital and better technology than these local start-ups, so I think Apps like Grab and Didi Chuxing gain advantages in their marketing. They might be more familiar with the local market situations. (In the case of Didi Chuxing, the Chinese government might have given them approval/support but that's another story.) I would be very interested to see the analysis of their marketing strategy in the presentation. For example, Grab renames itself from GrabTaxi to Grab to show its expansion of market. Also the name itself is good marketing because we Asians love to grab the limited resources from others in overly crowded space.
+
+Another topic that might be interesting to talk about is the legal issues. Uber used to be banned in China because the government didn't think it was permissible for people who were not registered as taxi drivers to give commercial rides. Grab had to remove its motorcycle service in Thailand because of the regulations. There's also concern like taxi drivers will lose jobs. Generally speaking, the laws tend to accomodate the rise of Apps like Grab, so is there really moral/legal controversies or are people just not completely ready with this innovative idea?
+
+Thanks for reading! Please share your thoughts and correct me if I'm wrong :)
