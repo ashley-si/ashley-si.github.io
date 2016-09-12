@@ -1,0 +1,17 @@
+---
+layout: post
+comments: true
+disqus_identifier: /lesson5
+title: "Lesson 5 : Assignment 3 :D"
+permalink: "/lesson5"
+---
+
+I'm so excited for assignment 3! Because I get to work on an idea that I'm truly passionate about. We are making an app that is something like a GitHub for cards, and personally I would love to use it if it turns out to be what we have envisioned haha. Currently we have a lot of use cases in mind, but keeping in mind the lessons I learnt from assignment 2, I think it is important for us to narrow down and cater to a particular niche market.
+
+Although I'm not really a big fan of Material Design, but I think MD is perfect for this assignment for the webapp to mimic a native App on the phone. One thing I don't like about MD is the color scheme. The colors have too much saturation and give me headache :O But I have to say Angular Material framework is easier to use compared to Bootstrap particularly in arranging layout since Angular Material uses CSS flexbox. But the documentation is not as detailed as Bootstrap.
+
+Thanks to assignment 1, I'm more comfortable with Angular now. Some interesting discoveries (maybe not so interesting for the experienced, but I was thrilled haha):
+
+1. `ng-cloak` hides the ugly curly braces in angular codes before they are ready 
+2. Use filter in `ng-repeat` can mess up `$index`. For example, `deck in decks | filter: ...` will make it unsafe to use `decks[$index]`. A simple way is to use `deck in filtered = (decks | filter:...` and `filtered[$index]`
+3. More examples of interesting formatting tricks can be found here: [All About the Built-In AngularJS Filters](https://scotch.io/tutorials/all-about-the-built-in-angularjs-filters).
