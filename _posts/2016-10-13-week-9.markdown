@@ -1,0 +1,15 @@
+---
+layout: post
+comments: true
+disqus_identifier: /week9
+title: "First Experience with Angular 2 "
+permalink: "/week9"
+---
+
+We decided to use Angular 2 for the final project, to learn something new along the way. And it turns out Angular 2 is quite different from Angular 1 and we have to re-learn many things.
+
+From the UI design perspective, it is a bit frustrating working with Angular 2 since the official Angular 2 Material library is still being developed. There are some material design plugins for Angular 2 on Github, but they don't look as nice as Angular 1 Material. There's one library [ng2-material](https://github.com/justindujardin/ng2-material) that builds on top of the current in-progress Angular 2 Material, but unfortuantely it does not have the directives that we need, such as layout. In hindsight, working with Angular 1 Material was a breeze.
+
+I decided to go with pure SASS and CSS (which is not a very good decision), and ended up with an interesting bug on Safari. I used flexbox in place of the layout directive to arrange the div in one row. I specified the width of each div element, and set `overflow-x: scroll`. On Chrome it works fine, but on Safari the div elements overlap each other horizontally. The reason is that Safari tries to resize each child of the flexbox, even though you have already specified the width of the child elements. The simple solution is to add `flex-shrink: 0`, but it took me very long to find out the bug.
+
+Apparently using postcss loader and plugins such as [autoprefixer](https://github.com/postcss/autoprefixer) and [postcss-cssnext](https://github.com/MoOx/postcss-cssnext) makes styling without library less painful. They help by adding in CSS that are supposed to achieve the same effect as your original CSS, but other browsers can interpret. 
