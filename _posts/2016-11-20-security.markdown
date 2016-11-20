@@ -1,0 +1,17 @@
+---
+layout: post
+comments: true
+disqus_identifier: /security
+title: "Security in Angular 1 & 2"
+permalink: "/security"
+---
+
+Cross site scripting (XSS) is the most common offence on web applications. It is mainly done through code injection to get sensitive information such as the session cookie. There are mainly 3 kinds of XSS: DOM-based, reflected and persistent. DOM-based XSS is purely client side, while reflected XSS involves the server being tricked to send malicious javascript codes or HTML to the client. Persistent XSS happens when the malicious codes are stored for example in a forum post such that whenever the page is loaded, the malicious codes execute.
+
+One of the way to prevent XSS is to sanitize user inputs. Angular 1 and 2 have been doing this. Angular sanitizes HTML (e.g. `<img onerror=...`), CSS style and URL (e.g. `<a href=...`). There's another case of resource URL where the URL will be loaded and executed, such as in `<script src=...`. However, this case is not sanitized because resource URL can be arbitrary.
+
+Besides the regular HTML and javascript injection, Angular apps may also be subjected to Angular expression injection in a template. This [blog post](https://ryhanson.com/angular-expression-injection-walkthrough/) has been featured in Angular 1's security documentation. It contains an example where an Angular App receiving and displaying template from the server is vulnerable. An adversary can potentially inject Angular expression like {% raw %} `{{1==1}}` into the server side's template and it will be interpreted on the victim's client side. `{{1==1}}` is a very harmless example, {% raw %}but if the adversary figures out the variables and methods within the scope of that template, he can modify the variables and call the methods. In the featured blog post, the author called a method in the scope that makes HTTP request. He directed the request to a server that allows CORS and got the victim's authentication token in the header.
+
+This vulnerability is not explicitly mentioned in Angular 2, but the [security document](https://angular.io/docs/ts/latest/guide/security.html) discourages developers from generating Angular templates on the server side using a templating language. 
+
+We didn't use server side templating in our project. I suppose if the template is really dynamic and subjected to frequent changes, then server side templating will then be helpful? There may be another advantage of using server side templating, which is that it can send all required data in one go instead of the client making multiple requests. However, Angular 2 offers Ahead-of-Time (AoT) compiling such that the template is compiled before serving to the clients. This also helps to reduce the initial loading time but the template is not subjected to injection.
