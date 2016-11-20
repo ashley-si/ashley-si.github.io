@@ -1,0 +1,25 @@
+---
+layout: post
+comments: true
+disqus_identifier: /forms
+title: "Angular 2 forms"
+permalink: "/forms"
+---
+
+In our agenda-builder app, there was a lot of data entry to create events, sessions, speakers and venues. These forms has great influence on our UI and UX, so we tried to make them intuitive and neat, and also tried to minimise the from and data entry as much as possible.
+
+We used the official Angular 2 Material Form directive, because we all liked how the placeholder of an input field shrinks and float to the top when the user tries to enter something. We think this design is more aesthetically appealing, offers better UX and saves space compared to other input field designs such as Bootstrap. In fact, this is one of the main reason we used the alpha material library. In hindsight, that was probably one trade off which I shouldn't have made. (I should stop whining about it after so long -.-)
+
+The styling of the Form directive is not yet available in the library, so I just changed the css. Also the style of remembered username and password in Chrome are black on yellow background. I changed the text to our site color and the background to white with
+{% highlight css %}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+    -webkit-text-fill-color: $color-secondary !important;
+}
+{% endhighlight %}
+
+I used `md-hint` inside `md-input` for error message display. It has the right default font size and also the default position is absolute so that other elements will not be pushed down when the error message appears. I use `(focus)="errorMsg=undefined` in `md-input` to clear the error message.
+
+Zhu Liang integrated an inline-editing library to edit the session details, which is great because it saves space and make the form UI less cluttered.
+
+However, I think our component design could be better organized. We used too many eventEmitters for communication between components, and sometimes these communication is not necessary in the first place. We realized this towards the end of the project and major refactoring is needed to correct it. We were afraid that last minute changes would break the functionality. Next time we should communicate with each other better, especially if architectural design is involved.
